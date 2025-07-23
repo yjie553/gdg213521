@@ -7,7 +7,7 @@ import asyncio
 # ---------- 以下是基础配置信息 ----------
 
 # 调用本项目时使用的密码
-PASSWORD = os.environ.get("PASSWORD", "123").strip('"') 
+PASSWORD = os.environ.get("PASSWORD", "zzzz2211").strip('"') 
 
 # 网页配置密码，设置后，在网页修改配置时使用 WEB_PASSWORD 而不是上面的 PASSWORD
 WEB_PASSWORD = os.environ.get("WEB_PASSWORD", PASSWORD).strip('"') 
